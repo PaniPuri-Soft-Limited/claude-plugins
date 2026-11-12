@@ -1,0 +1,12 @@
+{
+  "name": "panipurisoft",
+  "description": "Panipurisoft plugins for Claude",
+  "owner": { "name": "Panipurisoft", "email": "mirror_mcp@panipurisoft.in" },
+  "plugins": [
+    {
+      "name": "mirror-erp",
+      "source": "./",
+      "description": "Mirror ERP: live data, Mirror know-how, quick commands and a safe-write guard"
+    }
+  ]
+}

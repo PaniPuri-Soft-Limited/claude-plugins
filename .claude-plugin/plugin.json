@@ -1,0 +1,10 @@
+{
+  "name": "mirror-erp",
+  "displayName": "Mirror ERP",
+  "version": "1.0.0",
+  "description": "Ask Claude about your Mirror ERP data: sales and purchase orders, work orders and production status, BOM (master production plan), stock, invoices, product sizes, CBM and photos, with Excel export.",
+  "author": { "name": "Panipurisoft", "email": "mirror_mcp@panipurisoft.in", "url": "https://mcp.panipurisoft.in/MirrorMCPServer/help.html" },
+  "homepage": "https://mcp.panipurisoft.in/MirrorMCPServer/help.html",
+  "license": "LicenseRef-Proprietary",
+  "keywords": ["erp", "mirror", "manufacturing", "production", "orders", "inventory"]
+}
