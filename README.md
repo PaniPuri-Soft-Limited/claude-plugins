@@ -41,4 +41,4 @@ applies it only after you confirm. Nothing is saved in Mirror without that confi
 - Privacy policy: https://mcp.panipurisoft.in/MirrorMCPServer/privacy.html · Help: https://mcp.panipurisoft.in/MirrorMCPServer/help.html
 
 ## Support
-mirror_mcp@panipurisoft.in
+parth@panipurisoft.in

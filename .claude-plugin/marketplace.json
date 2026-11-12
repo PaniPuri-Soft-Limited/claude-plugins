@@ -1,7 +1,7 @@
 {
   "name": "panipurisoft",
   "description": "Panipurisoft plugins for Claude",
-  "owner": { "name": "Panipurisoft", "email": "mirror_mcp@panipurisoft.in" },
+  "owner": { "name": "Panipurisoft", "email": "parth@panipurisoft.in" },
   "plugins": [
     {
       "name": "mirror-erp",
