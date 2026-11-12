@@ -19,7 +19,6 @@ and Excel files straight from their live Mirror account.
 | Skill `mirror-erp` | Teaches Claude how Mirror works: look up ids before filtering, BOM means master production plan, use one-call recipes, offer Excel. |
 | Commands | `/mirror-erp:open-orders <customer>`, `/mirror-erp:bom <product codes>`, `/mirror-erp:stock <product> [department]` |
 | Agent `purchase-planner` | Reads work-order material needs, stock and open purchase orders and suggests what to buy, per supplier. It only reads data. |
-| Hook | Before Claude applies any change to Mirror (`apply_mirror_change`), you are always asked to confirm, even if tools are set to auto-approve. |
 
 ## Getting started
 1. Add the plugin, then connect **Mirror ERP** on the plugin's Connectors tab.
@@ -28,13 +27,17 @@ and Excel files straight from their live Mirror account.
 
 If your login has several Mirror companies, name the company in your question.
 
+## Changes to Mirror data
+Where your Mirror login allows changes, Claude first shows a preview of the change, and the Mirror server
+applies it only after you confirm. Nothing is saved in Mirror without that confirmation.
+
 ## Data and privacy
 - The plugin sends your questions and the filters Claude chooses to the Mirror ERP server at
   `mcp.panipurisoft.in`, run by Panipurisoft. The server reads your Mirror data with your own login and
   returns the rows to Claude. Nothing is sent anywhere else.
 - The server keeps an audit log of each call (user, question, entry used, time) to support and improve the
   service. Excel files are deleted after 24 hours; photo links expire within 7 days.
-- The hook runs a local shell script that only prints a confirmation request. It reads and sends nothing.
+- The plugin runs no scripts or programs on your computer.
 - Privacy policy: https://mcp.panipurisoft.in/MirrorMCPServer/privacy.html · Help: https://mcp.panipurisoft.in/MirrorMCPServer/help.html
 
 ## Support
